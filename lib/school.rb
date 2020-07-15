@@ -16,6 +16,7 @@ class School
       if key
         value.push(student)
       elsif 
+      end
 
   end
 
