@@ -15,9 +15,10 @@ class School
     @roster.each do |key, value|
       if key
         value.push(student)
-      elsif 
       end
-
+      if @roster[key] != true
+        @roster[key] = [value]
+      end
   end
 
 end
