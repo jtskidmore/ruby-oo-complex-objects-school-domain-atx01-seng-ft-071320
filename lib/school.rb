@@ -12,7 +12,11 @@ class School
   end
 
   def add_student (student, grade)
-    @roster[grade].push(student)
+    @roster.each do |key, value|
+      if key
+        value.push(student)
+      elsif 
+
   end
 
 end
