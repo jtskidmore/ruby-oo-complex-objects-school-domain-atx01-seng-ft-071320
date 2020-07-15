@@ -12,11 +12,11 @@ class School
   end
 
   def add_student (student, grade)
-    if hash[grade] == nil
-      hash[grade] = []
-      hash[grade] << "student"
-    elsif hash[grade] != nil
-      hash[grade] << student
+    if hash[grade.to_i] == nil
+      hash[grade.to_i] = []
+      hash[grade.to_i] << "student"
+    elsif hash[grade.to_i] != nil
+      hash[grade.to_i] << student
     end
   end
 
