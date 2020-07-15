@@ -12,11 +12,11 @@ class School
   end
 
   def add_student (student, grade)
-    if hash[grade.to_i] == nil
-      hash[grade.to_i] = []
-      hash[grade.to_i] << "student"
-    elsif hash[grade.to_i] != nil
-      hash[grade.to_i] << student
+    if @roster[grade.to_i] == nil
+      @roster[grade.to_i] = []
+      @roster[grade.to_i] << "student"
+    elsif @roster[grade.to_i] != nil
+      @roster[grade.to_i] << student
     end
   end
 
