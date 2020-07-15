@@ -30,7 +30,7 @@ class School
       binding.pry
       value.sort
     end
-    
+
   end
 
 end
