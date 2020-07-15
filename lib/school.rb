@@ -19,6 +19,7 @@ class School
       if @roster[key] != true
         @roster[key] = [value]
       end
+    end
   end
 
 end
