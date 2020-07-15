@@ -12,15 +12,8 @@ class School
   end
 
   def add_student (student, grade)
-    @roster.each do |key, value|
-      if key
-        value.push(student)
-      end
-      if @roster[key] != true
-        @roster[key] = [value]
-      end
-    end
+
 
   end
-  binding.pry
+
 end
