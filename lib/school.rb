@@ -20,6 +20,7 @@ class School
         @roster[key] = [value]
       end
     end
-    binding.pry
+
   end
+  binding.pry
 end
