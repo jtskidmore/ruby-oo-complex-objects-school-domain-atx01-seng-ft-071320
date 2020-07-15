@@ -10,5 +10,5 @@ class School
   def add_student (student, grade)
     @roster[student] << grade
   end
-  
+
 end
